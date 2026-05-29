@@ -38,6 +38,7 @@
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.txtMostrar = new System.Windows.Forms.TextBox();
             this.lblMostrar = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -124,11 +125,24 @@
             this.lblMostrar.TabIndex = 9;
             this.lblMostrar.Text = "DATOS INGRESADOS";
             // 
+            // lbl1
+            // 
+            this.lbl1.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.ForeColor = System.Drawing.Color.Blue;
+            this.lbl1.Location = new System.Drawing.Point(123, 40);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(561, 56);
+            this.lbl1.TabIndex = 10;
+            this.lbl1.Text = "Formulario Registrar";
+            this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl1);
             this.Controls.Add(this.lblMostrar);
             this.Controls.Add(this.txtMostrar);
             this.Controls.Add(this.btnLimpiar);
@@ -158,6 +172,7 @@
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.TextBox txtMostrar;
         private System.Windows.Forms.Label lblMostrar;
+        public System.Windows.Forms.Label lbl1;
     }
 }
 
