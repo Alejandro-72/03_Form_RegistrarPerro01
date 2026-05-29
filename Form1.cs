@@ -34,7 +34,7 @@ namespace _03_Form_RegistrarPerro01
 
         private void lbl1_Click(object sender, EventArgs e)
         {
-            /* Agregue la etiqueta lbl1 titulo del formulario".*/
+            /* */
         }
     }
 }
